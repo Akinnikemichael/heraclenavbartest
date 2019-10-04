@@ -4,7 +4,8 @@
     margin: 0;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     width: 100%;
     background: #fff;
@@ -28,37 +29,46 @@ body, html {
     color: #000;
     font-size: 1em;
 }
-.settings-contain{
-    margin: 30px;
-    padding: 20px;
+
+.first-section header nav {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav-header > span {
-    margin: 0 70px;
+
+.settings-contain {
+    margin-top: 5vw;
+    /*padding: 20px;*/
 }
-.nav-left{
+
+.nav-header>span {
+    margin: 0 30px;
+}
+
+.nav-left {
     position: fixed;
 }
-.settings-header{
+
+.settings-header {
     margin: 50px;
     margin-left: 20%;
     color: #26255B;
 }
 
-
-.header > p, .header > p + span {
+.header>p,
+.header>p+span {
     font-size: 1.2em;
 }
 
-span > a {
+span>a {
     font-weight: 600;
     color: #fff;
     text-decoration: none;
 }
 
-
-
 .nav-links {
-    border-right: 1px solid #26255B;
+    /*border-right: 1px solid #26255B;
     padding: 20px;
     height: 400px;
     display: flex;
@@ -66,7 +76,16 @@ span > a {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 60%;
-    padding-right: 30px;
+    padding-right: 30px;*/
+    /* border-right: 1px solid #26255B; */
+    /* padding: 20px; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links a {
@@ -88,7 +107,7 @@ span > a {
     flex-direction: column;
     align-items: center;
     background-color: #c4c4c4;
-    margin: 50px;
+    margin: 40px;
 }
 
 .wrapper {
@@ -96,14 +115,15 @@ span > a {
     justify-content: space-between;
 }
 
-.logout{
+.logout {
     /* background-color: gold; */
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 25px 0 15px 0;
 }
-.logout{
+
+.logout {
     text-decoration: none;
     background-color: #fff;
     display: flex;
